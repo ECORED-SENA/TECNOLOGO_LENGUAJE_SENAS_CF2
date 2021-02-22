@@ -30,7 +30,7 @@
     width: 100%;
     margin-right: -100%;
     margin-left: 10px;
-    border-top: 1px solid #fd8f25;
+    //border-top: 1px solid white;
   }
 }
 
@@ -491,6 +491,18 @@
   color: #076FCB;
 }
 
+.bg-color3{
+  background: #FFF7DC;
+}
+
+.bg-color4{
+  background: #FFE5CF;
+}
+
+.border-jumbo{
+  border-radius: 0px 0px 0px 0px;
+}
+
 .img-r {
   float: right;
   margin: -30px 20px 15px 15px;
@@ -585,17 +597,69 @@
 }
 
 .table-title{
-  background: #8E9AD5;
-  color: white;
-  border: 3px solid white;
+  background: #8E9AD5!important;
+  color: white!important;
+  padding: 1rem!important;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .table-content-1{
-  background: #FAFAFA;
-  border: 3px solid white;
+  background: #FAFAFA!important;
 }
 
 .table-content-2{
-  background: #EBF1FF;
-  border: 3px solid white;
+  background: #EBF1FF!important;
+}
+
+.table-border-left{
+  border-left: 2px solid #8E9AD5!important;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-normal{
+  font-size: 25px;
+  font-weight: normal!important;
+}
+
+mark{
+  background: #FED12F;
+  padding: 0px;
+}
+
+.hr-blue{
+  border: 5px solid #076FCB;
+}
+
+.jumbo-border{
+  border-radius: 0px 10px 10px 10px;
+}
+
+.j-left{
+  float: left;
+  margin: -20px 0px 0px -32px;
+}
+
+.b-left-card{
+  border-left: 3px solid #F4624D !important;
+}
+
+.jumbo.border{
+  border-radius: 0px 10px 0px 10px;
+}
+
+.jumbo.border-right{
+  border-radius: 10px 0px 0px 10px;
+}
+
+.j-right{
+  float: left;
+  margin: 0px -12px 0px 30px;
+}
+
+.jumbo-border-sup{
+  border-radius: 0px 10px 10px 10px;
 }

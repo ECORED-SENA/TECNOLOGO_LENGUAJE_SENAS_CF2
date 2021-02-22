@@ -36,15 +36,18 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'El bilingüismo', '#tema-1')
-                                    +navTemaItem('2', 'Los neologismos', '#tema-2')
-                                    +navTemaItem('2', 'La interpretación', '#tema-3')
+                                    +navTemaItem('play', 'Introducción', '#intro')                                    +navTemaItem('1', 'Aspectos generales de la lingüística y comunicación', '#tema-1')
+                                    +navTemaItem('2', 'Niveles de estudio del español', '#tema-2')
+                                    +navTemaItem('3', 'Niveles de estudio de la LSC', '#tema-3')
+                                    +navTemaItem('4', 'Desarrollo de habilidades comunicativas', '#tema-4')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
-        section#mainContent         
+        section#mainContent 
+            #intro 
+                include pages/intro.pug        
             #tema-1
                 include pages/1-tema.pug
             #tema-2
