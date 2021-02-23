@@ -107,7 +107,7 @@
   },
   { 
     "id": 1,
-    "icon": "fa fa-file-text-o",
+    "icon": "fa fa-play-circle",
     "slug": "lsc",
     "title": "3. Niveles de estudio de la LSC",
     "breadcrumb": ["Inicio","tema 3"],
